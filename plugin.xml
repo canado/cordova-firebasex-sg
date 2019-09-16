@@ -29,6 +29,12 @@
 				<param name="onload" value="true" />
 			</feature>
 		</config-file>
+		<config-file parent="/resources" target="res/values/strings.xml">
+		       <string name="google_app_id">1:511797399080:android:51b30303d82e0c85</string>
+		   </config-file>
+		   <config-file parent="/resources" target="res/values/strings.xml">
+		       <string name="google_api_key">AIzaSyDew_p84l_kOLx-Rq_m6eD8nNKt_6SJZpY</string>
+		   </config-file>  
 		<config-file target="AndroidManifest.xml" parent="/*">
 			<uses-permission android:name="android.permission.INTERNET" />
 			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
